@@ -1,0 +1,25 @@
+<div class="card full-page">
+    <div class="card-body login-box">
+        <div class="text-center login-logo">
+            <img src="./assets/images/login.png">
+        </div>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="col-lg-12">
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input class="form-control" type="text" placeholder="Enter User Name" formControlName="userName" />
+
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class="form-control" type="password" placeholder="Enter Password"
+                        formControlName="password" />
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary mr-1">Login</button>
+            </div>
+        </form>
+    </div>
+</div>

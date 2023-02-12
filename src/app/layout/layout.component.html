@@ -1,0 +1,27 @@
+<div class="container-fluid p-0">
+    <app-header (sideNavToggled)="sideNavStatus= $event;"></app-header>
+    <main>
+        <app-sidenav [sideNavStatus]="sideNavStatus" [ngClass]="{'app-sideNav-open': sideNavStatus}"></app-sidenav>
+        <div class="content-area" [ngClass]="{'content-area-shrink': sideNavStatus}">
+            <nav class="navbar">
+                <div class="col-lg-6 pt-2 title">
+                    <h4>{{pageTitle}}</h4>
+                </div>
+                <!-- <div class="col-lg-6 nav justify-content-end other-option">
+                    <select class="form-control mx-2 select-box-bg">
+                        <option value="All User" selected>All User</option>
+                        <option value="User">User</option>
+                        <option value="SMS">SMS</option>
+                    </select>
+                    <select class="form-control mx-2 select-box-bg">
+                        <option value="Campaign" selected>Campaign</option>
+                        <option value="User">User</option>
+                        <option value="SMS">SMS</option>
+                    </select>
+                    <input type="date" class="form-control mx-2 select-box-bg">
+                </div> -->
+            </nav>
+            <router-outlet></router-outlet>
+        </div>
+    </main>
+</div>

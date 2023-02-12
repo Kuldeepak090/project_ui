@@ -1,0 +1,20 @@
+<div class="container-fluid p-3 bg-dashboard">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <nav class="navbar navbar-light bg-light border-bottom">
+                <ul class="nav top-nav">
+                    <li class="nav-item" routerLink="campaign-wise">
+                        <a class="nav-link active color-blue" routerLinkActive="active">Campaign Wise Summary</a>
+                    </li>
+                    <li class="nav-item" routerLink="date-wise">
+                        <a class="nav-link" routerLinkActive="active">Date Wise Summary</a>
+                    </li>
+                    <li class="nav-item" routerLink="monthly-wise">
+                        <a class="nav-link" routerLinkActive="active">Monthly Summary Outgoing</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>

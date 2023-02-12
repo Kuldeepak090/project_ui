@@ -1,0 +1,24 @@
+.active {
+  color: rgb(255, 105, 124) !important;
+}
+.collapse-title {
+  width: 100%;
+  background: none;
+  color: #000;
+  text-align: left;
+  border: 1px dotted rgb(255, 105, 124);
+}
+.collapse-content {
+  background: #fff6f8;
+  border: 1px dotted rgb(255, 105, 124);
+}
+.collapse-content-btn {
+  color: rgb(255, 105, 124);
+  width: 30%;
+  background: #ffdde5;
+  padding: 5px 0px;
+  margin: auto;
+}
+.messaging-submit-btn {
+  margin: auto;
+}

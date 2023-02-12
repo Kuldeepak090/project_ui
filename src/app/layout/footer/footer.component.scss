@@ -1,0 +1,15 @@
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4c4;
+  height: 30px;
+  text-align: center;
+}
+footer p {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: inherit;
+}

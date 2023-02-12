@@ -1,0 +1,49 @@
+.active {
+  color: black !important;
+}
+.collapse-title {
+  width: 100%;
+  background: none;
+  color: #000;
+  text-align: left;
+  border: 1px dotted rgb(255, 105, 124);
+}
+.collapse-content {
+  background: #fff6f8;
+  border: 1px dotted rgb(255, 105, 124);
+}
+.collapse-content-btn {
+  background-color: rgb(255, 105, 124);
+  width: 30%;
+  background: #fff6f8;
+  padding: 5px 0px;
+  margin: auto;
+}
+.messaging-submit-btn {
+  margin: auto;
+}
+.selectDateSec {
+  background: #3699ff3b;
+  padding: 0 5px;
+  color: #959cbd;
+  border-radius: 5px;
+}
+.selectDateSec span {
+  float: left;
+  position: relative;
+  top: 3px;
+}
+.selectDateSec input {
+  width: 60%;
+  padding: 12px;
+  height: 30px;
+  background: #fff6f8;
+  color: black;
+  border: none;
+  border-radius: 0;
+}
+@media (max-width: 768px) {
+  .chooseType-content {
+    text-align: left !important;
+  }
+}

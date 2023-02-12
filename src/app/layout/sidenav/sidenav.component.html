@@ -1,0 +1,16 @@
+
+
+<div class="side-nav-content">
+
+    <ul class="nav-list" [ngClass]="{'nav-list-open' : sideNavStatus}">
+        <!-- <p class="custom-text">CUSTOM</p> -->
+        <div *ngFor="let list of menuList">
+            <li class="nav-list-item" routerLink="{{list.link}}">
+                <i class="{{list.icon}}"></i>
+                <span>
+                    <a>{{list.name}}</a>
+                </span>
+            </li>
+        </div>
+    </ul>
+</div>

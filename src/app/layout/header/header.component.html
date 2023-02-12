@@ -1,0 +1,48 @@
+<nav class="row navbar-light bg-light border-bottom mx-0 bg-top-color">
+    <div class="col-lg-2 sidebar-header" style="display: flex;
+    justify-content: space-around; background-color: black;" >
+      <div>
+        <img src="./assets/images/banner.jpeg"  alt="" style="margin: 1px 0px 0px 37px;    width: 225px;
+      ">
+      </div>
+
+
+
+
+    </div>
+
+    <div class="side-nav-button p-2 text-light" (click)="SideNavToggle()">
+        <i class="fa fa-solid fa-bars"></i>
+    </div>
+    <ul class="col-lg-4 nav top-nav ml-2">
+        <li class="nav-item">
+            <a class="nav-link active">Whatsapp</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">SMS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">IVR</a>
+        </li>
+    </ul>
+    <div class="col-lg-5 navbar-brand text-right navbar-icons">
+        <span class="mx-2"><img src="./assets/images/Search.png" alt=""></span>
+        <span class="mx-2"><img src="./assets/images/Compiling.png" alt=""></span>
+        <span class="mx-2"><img src="./assets/images/Equalizer.png" alt=""></span>
+        <span class="mx-2"><img src="./assets/images/Cart#3.png" alt=""></span>
+        <span class="mx-2"><img src="./assets/images/Layout-4-blocks.png" alt=""></span>
+        <span class="mx-2"><img src="./assets/images/Flag.png" alt=""></span>
+        <a id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mx-2 font-12 text-white dropdown-toggle">Hi, Sean</span></a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" routerLink='settings'>Setting</a>
+            <a class="dropdown-item" routerLink='settings/change-password'>Change Password</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" routerLink="login">Logout</a>
+        </div>
+    </div>
+
+</nav>
+
+
+

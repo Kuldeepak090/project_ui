@@ -1,0 +1,118 @@
+.iconImg {
+  font-size: 2rem;
+}
+.status {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+.bg-dashboard {
+  background: #f5f3f3;
+}
+.bg-box {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 160px;
+  border-radius: 15px !important;
+}
+.bg-box1 {
+  background-image: url("../../../assets/images/Vector\ 9.png");
+  background-size: contain;
+}
+.bg-box2 {
+  background-image: url("../../../assets/images/Vector\ 8.png");
+  background-size: contain;
+}
+.bg-box3 {
+  background-image: url("../../../assets/images/Vector\ 10.png");
+  background-size: contain;
+}
+.bg-box4 {
+  background-image: url("../../../assets/images/Vector\ 11.png");
+  background-size: contain;
+}
+.border-radius-15 {
+  border-radius: 15px;
+}
+
+.data-box {
+  border-left: 3px solid
+  rgb(255, 105, 124);
+}
+.data-badge-box {
+  width: 25px;
+  height: 25px;
+  background:
+  rgb(255, 105, 124);
+  display: block;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+}
+.data-num-box {
+  background: #f3f6f9;
+  border-radius: 5px;
+  color: #464e5f;
+  padding: 5px 10px;
+}
+.data-box-2 {
+  border-left: 3px solid #8950fc;
+}
+.data-badge-box-2 {
+  background: #eee5ff;
+}
+.data-box-3 {
+  border-left: 3px solid #ffa800;
+}
+.data-badge-box-3 {
+  background: #fff4de;
+}
+.data-box-4 {
+  border-left: 3px solid #3699ff;
+}
+.data-badge-box-4 {
+  background: #e1f0ff;
+}
+.data-box-5 {
+  border-left: 3px solid #f64e60;
+}
+.data-badge-box-5 {
+  background: #ffe2e5;
+}
+.btn-col {
+  color: #fff;
+  font-size: 12px;
+  background: #8950fc;
+  padding: 10px 30px;
+}
+.contant-head {
+  background: none !important;
+  border: none !important;
+}
+.legend-img {
+  position: absolute;
+  bottom: 0;
+}
+.count {
+  color: #d42c2f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.create-btn {
+  background: #d42c2f;
+  width: 50%;
+  color: #fff;
+}
+#bar {
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .create-btn {
+    width: 100%;
+  }
+  .btn-col {
+    padding: 3px 10px;
+  }
+}

@@ -1,0 +1,76 @@
+app-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 4rem;
+  z-index: 2;
+}
+main {
+  position: absolute;
+  width: 100%;
+  top: 4rem;
+  z-index: 1;
+}
+app-sidenav {
+  position: fixed;
+  left: 0rem;
+  width: 60px;
+  height: calc(100vh - 4rem);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background: #1e1e2d;
+  overflow-x: hidden;
+  white-space: nowrap;
+  transition: 0.5s;
+}
+.app-sideNav-open {
+  width: 250px;
+}
+.content-area {
+  position: absolute;
+  left: 60px;
+  width: calc(100% - 60px);
+  transition: 0.5s;
+}
+.content-area-shrink {
+  width: calc(100% - 250px);
+  left: 250px;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 0;
+}
+.breadcrumb-item {
+  color: #6c757d;
+}
+.breadcrumb-item.active {
+  color: #2c3034;
+}
+.select-box-bg {
+  background: #e0e4fd;
+  color: rgb(255, 105, 124);
+  width: 15%;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  app-sidenav {
+    width: 0;
+  }
+  .content-area {
+    width: 100%;
+    left: 0;
+  }
+  .app-sideNav-open {
+    z-index: 2;
+  }
+  .title {
+    text-align: center;
+  }
+  .title h4 {
+    font-size: 18px;
+  }
+  .other-option {
+    display: none;
+  }
+}
